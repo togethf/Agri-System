@@ -1,0 +1,9 @@
+[submodule "knowledge_base"]
+	path = knowledge_base
+	url = https://github.com/togethf/knowledge_base.git
+[submodule "pest_dashboard"]
+	path = pest_dashboard
+	url = ./pest_dashboard
+[submodule "pest_detection"]
+	path = pest_detection
+	url = ./pest_detection
