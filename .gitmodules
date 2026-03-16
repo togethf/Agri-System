@@ -3,7 +3,7 @@
 	url = https://github.com/togethf/knowledge_base.git
 [submodule "pest_dashboard"]
 	path = pest_dashboard
-	url = ./pest_dashboard
+	url = https://github.com/togethf/pest_dashboard.git
 [submodule "pest_detection"]
 	path = pest_detection
-	url = ./pest_detection
+	url = https://github.com/togethf/pest_detection.git
