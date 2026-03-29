@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- 背景 - 白色纹理表面 -->
+  <rect fill="#F5F5F0" width="600" height="400"/>
+
+  <!-- 添加一些纹理效果 -->
+  <g opacity="0.1">
+    <line x1="0" y1="50" x2="600" y2="50" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="100" x2="600" y2="100" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="150" x2="600" y2="150" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="200" x2="600" y2="200" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="250" x2="600" y2="250" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="300" x2="600" y2="300" stroke="#999" stroke-width="1"/>
+    <line x1="0" y1="350" x2="600" y2="350" stroke="#999" stroke-width="1"/>
+  </g>
+
+  <!-- 大飞虱成虫（右上） -->
+  <ellipse fill="#6B5345" cx="420" cy="140" rx="50" ry="25" transform="rotate(-30 420 140)"/>
+  <ellipse fill="#8B7355" cx="430" cy="135" rx="35" ry="18" transform="rotate(-30 430 135)"/>
+  <!-- 翅膀 -->
+  <path fill="#5C4A3A" d="M400 125 Q420 115 450 130 Q440 145 410 140 Z"/>
+  <!-- 触角 -->
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="2" d="M445 115 Q460 100 470 95"/>
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="2" d="M450 120 Q465 108 475 105"/>
+  <!-- 腿 -->
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="1.5" d="M410 150 L400 170"/>
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="1.5" d="M420 155 L415 175"/>
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="1.5" d="M435 158 L440 178"/>
+
+  <!-- 中等飞虱（左下） -->
+  <ellipse fill="#6B5345" cx="180" cy="220" rx="35" ry="18" transform="rotate(45 180 220)"/>
+  <path fill="#5C4A3A" d="M165 208 Q180 200 200 212 Q190 225 175 222 Z"/>
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="1.5" d="M185 205 Q195 190 205 185"/>
+  <path fill="#6B5345" stroke="#6B5345" stroke-width="1.5" d="M175 230 L170 245"/>
+
+  <!-- 小若虫（散布） -->
+  <ellipse fill="#8B7355" cx="120" cy="180" rx="8" ry="5"/>
+  <ellipse fill="#8B7355" cx="140" cy="195" rx="6" ry="4"/>
+  <ellipse fill="#6B5345" cx="200" cy="160" rx="10" ry="6"/>
+  <ellipse fill="#8B7355" cx="280" cy="200" rx="7" ry="4"/>
+  <ellipse fill="#6B5345" cx="320" cy="250" rx="9" ry="5"/>
+  <ellipse fill="#8B7355" cx="250" cy="280" rx="6" ry="4"/>
+  <ellipse fill="#6B5345" cx="350" cy="300" rx="8" ry="5"/>
+  <ellipse fill="#8B7355" cx="100" cy="280" rx="5" ry="3"/>
+  <ellipse fill="#8B7355" cx="500" cy="200" rx="7" ry="4"/>
+  <ellipse fill="#8B7355" cx="480" cy="250" rx="6" ry="3"/>
+  <ellipse fill="#6B5345" cx="520" cy="320" rx="8" ry="5"/>
+
+  <!-- 污渍/痕迹 -->
+  <path fill="#B8A080" d="M50 320 Q80 315 120 325 Q150 330 180 320 Q200 315 220 325" stroke="#A08860" stroke-width="3" fill="none" opacity="0.6"/>
+  <path fill="#B8A080" d="M240 340 Q270 335 300 345 Q320 350 340 340" stroke="#A08860" stroke-width="2" fill="none" opacity="0.5"/>
+
+  <!-- 标注框 -->
+  <rect x="380" y="280" width="180" height="100" rx="10" fill="rgba(255,255,255,0.95)" stroke="#4CAF50" stroke-width="2"/>
+  <text x="470" y="310" font-size="18" fill="#2E7D32" text-anchor="middle" font-weight="bold">稻飞虱</text>
+  <text x="470" y="335" font-size="14" fill="#666" text-anchor="middle">成虫 + 若虫</text>
+  <text x="470" y="360" font-size="12" fill="#999" text-anchor="middle">放大倍数：10x</text>
+</svg>

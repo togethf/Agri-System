@@ -1,0 +1,24 @@
+{
+  "name": "ai-pest-app",
+  "version": "1.0.0",
+  "description": "AI 虫情智能问诊移动端应用",
+  "main": "main.js",
+  "scripts": {
+    "dev:mp-weixin": "uni -p mp-weixin",
+    "build:mp-weixin": "uni build -p mp-weixin",
+    "dev:h5": "uni -p h5",
+    "build:h5": "uni build -p h5"
+  },
+  "dependencies": {
+    "@dcloudio/uni-app": "3.0.0-5000320260312001",
+    "@dcloudio/uni-components": "3.0.0-5000320260312001",
+    "@dcloudio/uni-h5": "3.0.0-5000320260312001",
+    "vue": "^3.4.21"
+  },
+  "devDependencies": {
+    "@dcloudio/types": "^3.4.8",
+    "@dcloudio/uni-cli-shared": "3.0.0-5000320260312001",
+    "@dcloudio/vite-plugin-uni": "3.0.0-5000320260312001",
+    "sass": "^1.77.0"
+  }
+}

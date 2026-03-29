@@ -32,3 +32,6 @@ env/
 # knowledge_base/
 # pest_dashboard/
 # pest_detection/
+
+# node
+node_modules
