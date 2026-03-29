@@ -1,0 +1,55 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "enablePullDownRefresh": true
+      }
+    },
+    {
+      "path": "pages/camera/index",
+      "style": {
+        "navigationBarTitleText": "拍照识别",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/consult/index",
+      "style": {
+        "navigationBarTitleText": "AI 问诊",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "AI 虫情智能问诊",
+    "navigationBarBackgroundColor": "#4CAF50",
+    "backgroundColor": "#F5F5F5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4CAF50",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "60px",
+    "fontSize": "13px",
+    "iconWidth": "32px",
+    "iconHeight": "32px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "🏠 首页"
+      },
+      {
+        "pagePath": "pages/camera/index",
+        "text": "📷 拍照识别"
+      },
+      {
+        "pagePath": "pages/consult/index",
+        "text": "🤖 AI 问诊"
+      }
+    ]
+  }
+}

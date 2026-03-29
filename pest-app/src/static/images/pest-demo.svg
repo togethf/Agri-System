@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- 背景 -->
+  <rect fill="#87CEEB" width="600" height="400"/>
+
+  <!-- 天空 -->
+  <rect fill="#B0E0F6" width="600" height="200"/>
+
+  <!-- 太阳 -->
+  <circle fill="#FFD700" cx="520" cy="60" r="40"/>
+
+  <!-- 山 -->
+  <path fill="#228B22" d="M0 350 L150 200 L300 350 Z"/>
+  <path fill="#2E8B2E" d="M200 350 L380 180 L560 350 Z"/>
+  <path fill="#1E7B1E" d="M400 350 L520 220 L640 350 Z"/>
+
+  <!-- 稻田 -->
+  <rect fill="#9ACD32" x="0" y="320" width="600" height="80"/>
+
+  <!-- 稻子 -->
+  <g fill="#8FBC8F">
+    <rect x="50" y="280" width="4" height="40"/>
+    <rect x="80" y="270" width="4" height="50"/>
+    <rect x="110" y="285" width="4" height="35"/>
+    <rect x="140" y="275" width="4" height="45"/>
+    <rect x="170" y="280" width="4" height="40"/>
+    <rect x="200" y="270" width="4" height="50"/>
+    <rect x="230" y="285" width="4" height="35"/>
+    <rect x="260" y="275" width="4" height="45"/>
+    <rect x="290" y="280" width="4" height="40"/>
+    <rect x="320" y="270" width="4" height="50"/>
+    <rect x="350" y="285" width="4" height="35"/>
+    <rect x="380" y="275" width="4" height="45"/>
+    <rect x="410" y="280" width="4" height="40"/>
+    <rect x="440" y="270" width="4" height="50"/>
+    <rect x="470" y="285" width="4" height="35"/>
+    <rect x="500" y="275" width="4" height="45"/>
+    <rect x="530" y="280" width="4" height="40"/>
+    <rect x="560" y="270" width="4" height="50"/>
+  </g>
+
+  <!-- 虫害区域（放大显示） -->
+  <circle fill="rgba(255,0,0,0.3)" cx="300" cy="250" r="60" stroke="#FF0000" stroke-width="3"/>
+
+  <!-- 小虫子示意 -->
+  <ellipse fill="#8B4513" cx="290" cy="240" rx="15" ry="8"/>
+  <ellipse fill="#8B4513" cx="305" cy="255" rx="12" ry="6"/>
+  <ellipse fill="#8B4513" cx="295" cy="265" rx="10" ry="5"/>
+
+  <!-- 文字 -->
+  <text x="300" y="390" font-size="24" fill="#333" text-anchor="middle" font-family="Arial">稻田虫害实拍图</text>
+</svg>
